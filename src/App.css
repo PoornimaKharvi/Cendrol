@@ -36,3 +36,45 @@
     transform: rotate(360deg);
   }
 }
+.mainDiv{
+  display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    grid-gap: 45px;
+    grid-column-gap: 35px;
+    width: 90%;
+    margin-top: 37px;
+    margin-left: 6%;
+}
+.headerStyle{
+  text-align: center;
+  margin-top: 1%;
+    margin-bottom: -2%;
+    
+}
+.cardTitle{
+  text-align: center;
+  font-size: 200%;
+  
+}
+.cardText{
+  text-align: center;
+}
+.cardstyle{
+width: 20rem ;
+height:20rem;
+padding: 13%;
+}
+
+.headerstyle{
+text-align:center;
+padding-top: 24px;
+color:chartreuse;
+
+}
+.conentStyle{
+  background: linear-gradient(90deg,#2c5364,#203a43,#0f2027);
+  color:white;
+  font-size: 30px;
+  width: 150%;
+}
